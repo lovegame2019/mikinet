@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>我的旅游博客</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #f0f0f0;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333333;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333333;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            color: #0099ff;
+        }
+        .main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        .post {
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .post img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .post h3 {
+            margin: 0;
+            padding: 10px;
+            font-size: 24px;
+            color: #333333;
+        }
+        .post p {
+            margin: 0;
+            padding: 10px;
+            font-size: 16px;
+            color: #666666;
+        }
+        .post a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #0099ff;
+            font-size: 18px;
+        }
+        .post a:hover {
+            background-color: #0066cc;
+        }
+        .footer {
+            background-color: #f0f0f0;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 16px;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">我的旅游博客</div>
+        <div class="nav">
+            <a href="#">首页</a>
+            <a href="#">关于我</a>
+            <a href="#">联系我</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="post">
+            <img src="train.jpg" alt="火车">
+            <h3>火车之旅</h3>
+            <p>火车是一种既经济又环保的交通工具，它可以带你穿越不同的地域，欣赏不同的风景，体验不同的文化。我喜欢坐火车旅行，因为它让我感受到了旅行的乐趣和意义。这是我写的一篇关于火车之旅的博客文章，希望你们喜欢。</p>
+            <a href="#">阅读更多</a>
+        </div>
+        <div class="post">
+            <img src="beach.jpg" alt="海滩">
+            <h3>海滩之旅</h3>
+            <p>海滩是一种让人放松和快乐的地方，它有着清澈的海水，细软的沙子，温暖的阳光，美丽的贝壳，还有各种各样的海洋生物。我喜欢去海滩旅行，因为它让我感受到了大自然的魅力和奥秘。这是我写的一篇关于海滩之旅的博客文章，希望你们喜欢。</p>
+            <a href="#">阅读更多</a>
+        </div>
+        <div class="post">
+            <img src="mountain.jpg" alt="山">
+            <h3>山之旅</h3>
+            <p>山是一种让人挑战和成长的地方，它有着崎岖的山路，险峻的山峰，幽静的山谷，清新的山泉，还有各种各样的山林动植物。我喜欢爬山旅行，因为它让我感受到了自己的力量和勇气。这是我写的一篇关于山之旅的博客文章，希望你们喜欢。</p>
+            <a href="#">阅读更多</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2023 我的旅游博客. All rights reserved.</p>
+    </div>
+</body>
+</html>
